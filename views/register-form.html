@@ -1,0 +1,35 @@
+<style>
+	@import "../css/styles.css";
+</style>
+<form action="controllers/register.php" method="post" class="registration">
+	<ul class="flex-outer">
+		<h1>Регистрация</h1>
+		<li>
+			<label for="login">Логин</label>
+			<input type="text" name="login" id="login" placeholder="Придумайте логин">
+		</li>
+		<li>
+			<label for="password">Пароль</label>
+			<input type="password" name="password" id="password" placeholder="Придумайте пароль">
+		</li>
+		<li>
+			<label for="password-repeat">Повтор пароля</label>
+			<input type="password" name="password-repeat" id="password-repeat" placeholder="Повторите пароль">
+		</li>
+		<li>
+			<label for="email">Почта</label>
+			<input type="email" name="email" id="email" placeholder="Укажите ваш E-mail">
+		</li>
+		<li>
+			<label for="name">Имя</label>
+			<input type="text" name="name" id="name" placeholder="Введите ваше Имя">
+		</li>
+		</br>
+		<li>
+			<a href="views/login-form.html" class="btn">Уже есть аккаунт</a>
+		</li>
+		<li>
+			<button type="submit">Создать</button>
+		</li>
+	</ul>
+</form>
